@@ -2,7 +2,7 @@
 .gitignore
 
 #Dockerfile
-.dockerignore
+#.dockerignore
 
 *.md
 *.rst
