@@ -34,3 +34,4 @@ RUN apk add --no-cache curl
 # Start script
 RUN chmod +x /usr/src/app/dockerStart.sh
 ENTRYPOINT ["./dockerStart.sh"]
+
