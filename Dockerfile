@@ -1,6 +1,6 @@
 FROM python:3.7-alpine
 
- # Environment vars we can configure against
+# Environment vars we can configure against
 # But these are optional, so we won't define them now
 #ENV HA_URL http://hass:8123
 #ENV HA_KEY secret_key
@@ -34,4 +34,3 @@ RUN apk add --no-cache curl
 # Start script
 RUN chmod +x /usr/src/app/dockerStart.sh
 ENTRYPOINT ["./dockerStart.sh"]
-
